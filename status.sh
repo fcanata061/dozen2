@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Para Sysvinit precisa ser exportado o DISPLAY=0,descomente.
+# export DISPLAY=:0
+# export XAUTHORITY=/home/SEU_USUARIO/.Xauthority
+
 # Fontes
 FONT="-*-monospace-*-r-*-*-14-*-*-*-*-*-*-*"
 ICON_FONT="Symbols Nerd Font:size=12"
