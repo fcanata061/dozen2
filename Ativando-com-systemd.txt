@@ -1,0 +1,11 @@
+# Recarrega systemd user
+systemctl --user daemon-reload
+
+# Ativa na inicialização
+systemctl --user enable dzen.service
+
+# Inicia agora
+systemctl --user start dzen.service
+
+# Ver status
+systemctl --user status dzen.service
