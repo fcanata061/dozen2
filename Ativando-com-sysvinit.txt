@@ -1,0 +1,8 @@
+# Dá permissão
+sudo chmod +x /etc/init.d/dzen
+
+# Adiciona nos runlevels padrão
+sudo update-rc.d dzen defaults
+
+# Testa
+sudo service dzen start
